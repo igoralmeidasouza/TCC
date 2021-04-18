@@ -1,10 +1,11 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 *{
     list-style: none;
     text-decoration: none;
 
 }
+
+/* colors #e75f17 laranja; verde  #468847; pastel #f1f1e6;*/
 
 
 body{
@@ -14,7 +15,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #14F86D;
+    /* background-color: #14F86D; */
+    background-color: #468847;
     
     /* background-color: #fefefe; */
 
@@ -23,7 +25,7 @@ body{
 
 .menu-navegacao{
     background: transparent;
-    background-color: #fff;
+    background-color: #f1f1e6;
     left: 0;
     position: fixed;
     text-align: center;
@@ -31,6 +33,7 @@ body{
     font-weight: bold;
     top: 0;
     width: 100%;
+    height: 4.5rem;
     z-index: 400;
     font: 14px;
     font-family: 'Open Sans bold', sans-serif;
@@ -38,7 +41,7 @@ body{
 
 .menu-navegacao a{
     text-decoration: none;
-    
+    color: #e75f17;
 }
 
 .menu-nav-menu{
@@ -46,14 +49,15 @@ body{
     align-items: center;
     display: -ms-flexbox;
     display: flex;
-    height: 100px;
+    height: 4.5rem;
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0 20px;
     position: relative;
     transition: background .4s ease-out,box-shadow .4s ease-out,height .4s ease;
     z-index: 900;
-    color: #ed145b;
+    color: #e75f17;
+    /* color: #ed145b; */
 }
 
 .menu-central{
@@ -142,7 +146,7 @@ body{
 }
 
 .manual-btn{
-    border: 2px solid #4DF020;
+    border: 2px solid #e75f17;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -154,7 +158,7 @@ body{
 }
 
 .manual-btn:hover{
-    background-color: #14F86D;
+    background-color: #e75f17;
 }
 
 #radio1:checked ~ .um{
@@ -178,7 +182,7 @@ body{
 }
 
 .navegacao-auto div{
-    border: 2px solid #4DF020;
+    border: 2px solid #e75f17;
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
@@ -190,13 +194,13 @@ body{
 }
 
 #radio1:checked ~ .navegacao-auto .nav-btn1{
-    background: #4DF020;
+    background: #e75f17;
 }
 
 #radio2:checked ~ .navegacao-auto .nav-btn2{
-    background: #4DF020;
+    background: #e75f17;
 }
 
 #radio3:checked ~ .navegacao-auto .nav-btn3{
-    background: #4DF020;
+    background: #e75f17;
 }
